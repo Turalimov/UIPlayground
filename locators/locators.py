@@ -6,6 +6,7 @@ class LoginPageLocators:
     USERNAME = ('xpath', "//input[@id='user-name']")
     PASSWORD = ('xpath', "//input[@id='password']")
     LOGIN_BTN = ('xpath', "//input[@id='login-button']")
+    LOGIN_ERROR = ('xpath', "//h3")
 
 
 class MainPageLocators:
